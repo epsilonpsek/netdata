@@ -4,7 +4,7 @@ custom_edit_url: "https://github.com/netdata/netdata/edit/master/collectors/fpin
 sidebar_label: "fping.plugin"
 learn_status: "Published"
 learn_topic_type: "References"
-learn_rel_path: "Remotes"
+learn_rel_path: "Collectors References/Remotes"
 -->
 
 # fping.plugin
