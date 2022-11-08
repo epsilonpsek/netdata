@@ -4,7 +4,7 @@ custom_edit_url: "https://github.com/netdata/netdata/edit/master/collectors/pyth
 sidebar_label: "Java Spring Boot 2 applications"
 learn_status: "Published"
 learn_topic_type: "References"
-learn_rel_path: "Collectors References/APM"
+learn_rel_path: "References/Collectors references/Apm"
 -->
 
 # Java Spring Boot 2 application monitoring with Netdata
