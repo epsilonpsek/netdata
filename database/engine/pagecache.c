@@ -599,6 +599,14 @@ uint8_t pg_cache_punch_hole(
     }
     rrdeng_page_descr_mutex_unlock(ctx, descr);
 
+    while (unlikely(pg_cache_descr->flags & RRD_PAGE_READ_PENDING)) {
+        error_limit_static_global_var(erl, 1, 0);
+        error_limit(&erl, "%s: Found page with READ PENDING, waiting for read to complete", __func__);
+        if (unlikely(debug_flags & D_RRDENGINE))
+            print_page_cache_descr(descr, "", true);
+        pg_cache_wait_event_unsafe(descr);
+    }
+
     if (pg_cache_descr->flags & RRD_PAGE_POPULATED) {
         /* only after locking can it be safely deleted from LRU */
         pg_cache_replaceQ_delete(ctx, descr);
