@@ -1,6 +1,10 @@
 <!--
 title: "fping.plugin"
-custom_edit_url: https://github.com/netdata/netdata/edit/master/collectors/fping.plugin/README.md
+custom_edit_url: "https://github.com/netdata/netdata/edit/master/collectors/fping.plugin/README.md"
+sidebar_label: "fping.plugin"
+learn_status: "Published"
+learn_topic_type: "References"
+learn_rel_path: "Remotes"
 -->
 
 # fping.plugin

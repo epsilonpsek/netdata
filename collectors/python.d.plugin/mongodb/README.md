@@ -1,7 +1,10 @@
 <!--
 title: "MongoDB monitoring with Netdata"
-custom_edit_url: https://github.com/netdata/netdata/edit/master/collectors/python.d.plugin/mongodb/README.md
-sidebar_label: "MongoDB"
+custom_edit_url: "https://github.com/netdata/netdata/edit/master/collectors/python.d.plugin/mongodb/README.md"
+sidebar_label: "mongodb-python.d.plugin"
+learn_status: "Published"
+learn_topic_type: "References"
+learn_rel_path: "Databases"
 -->
 
 # MongoDB monitoring with Netdata

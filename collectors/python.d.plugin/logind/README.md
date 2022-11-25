@@ -1,7 +1,10 @@
 <!--
 title: "systemd-logind monitoring with Netdata"
-custom_edit_url: https://github.com/netdata/netdata/edit/master/collectors/python.d.plugin/logind/README.md
-sidebar_label: "systemd-logind"
+custom_edit_url: "https://github.com/netdata/netdata/edit/master/collectors/python.d.plugin/logind/README.md"
+sidebar_label: "logind-python.d.plugin"
+learn_status: "Published"
+learn_topic_type: "References"
+learn_rel_path: "System metrics"
 -->
 
 # Systemd-Logind monitoring with Netdata
